@@ -8,10 +8,19 @@ export default class Home extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar />
-                <Header />
-                <Section />
-                <Footer />
+                <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <Navbar />
+                </nav>
+                <header className="py-5">
+                    <Header />
+                </header>
+                <section className="pt-4">
+                    <Section />
+                </section>
+                <footer className="py-5 bg-dark">
+                    <Footer />
+                </footer>
+
             </Fragment>
 
         )
